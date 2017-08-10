@@ -3,19 +3,13 @@ unit Unit2;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, Unit3, ExtCtrls,
-  Grids;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, Unit3;
 
 type
   TForm2 = class(TForm)
     lbl1: TLabel;
     btn1: TButton;
-    pnl1: TPanel;
-    cbb1: TComboBox;
-    btn2: TButton;
-    strngrd1: TStringGrid;
     procedure btn1Click(Sender: TObject);
-    procedure btn2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,11 +28,6 @@ begin
   Unit3.Form3.Show;
   Self.Hide;
 
-end;
-
-procedure TForm2.btn2Click(Sender: TObject);
-begin
-  ShowMessage('This is a test to see how Github Works..');
 end;
 
 end.
