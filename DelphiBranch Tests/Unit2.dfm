@@ -28,4 +28,13 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
   end
+  object btn1: TButton
+    Left = 808
+    Top = 464
+    Width = 170
+    Height = 33
+    Caption = 'Switch User Forms'
+    TabOrder = 0
+    OnClick = btn1Click
+  end
 end

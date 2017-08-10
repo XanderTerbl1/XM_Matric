@@ -31,13 +31,4 @@ object Form3: TForm3
     ExplicitTop = 8
     ExplicitWidth = 98
   end
-  object btn1: TButton
-    Left = 776
-    Top = 487
-    Width = 170
-    Height = 33
-    Caption = 'Switch User Forms'
-    TabOrder = 0
-    OnClick = btn1Click
-  end
 end

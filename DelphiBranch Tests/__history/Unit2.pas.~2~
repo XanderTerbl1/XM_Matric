@@ -26,7 +26,6 @@ implementation
 procedure TForm2.btn1Click(Sender: TObject);
 begin
   Unit3.Form3.Show;
-  Self.Hide;
 
 end;
 
