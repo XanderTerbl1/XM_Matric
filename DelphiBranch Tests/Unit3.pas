@@ -3,12 +3,16 @@ unit Unit3;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls,
+  ComCtrls;
 
 type
   TForm3 = class(TForm)
     lbl1: TLabel;
     btn1: TButton;
+    Button1: TButton;
+    Button2: TButton;
+    RichEdit1: TRichEdit;
     procedure btn1Click(Sender: TObject);
   private
     { Private declarations }
