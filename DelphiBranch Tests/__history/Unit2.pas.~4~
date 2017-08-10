@@ -3,8 +3,7 @@ unit Unit2;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, Unit3, ExtCtrls,
-  Grids;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, Unit3, ExtCtrls;
 
 type
   TForm2 = class(TForm)
@@ -13,7 +12,6 @@ type
     pnl1: TPanel;
     cbb1: TComboBox;
     btn2: TButton;
-    strngrd1: TStringGrid;
     procedure btn1Click(Sender: TObject);
     procedure btn2Click(Sender: TObject);
   private
